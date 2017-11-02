@@ -1,0 +1,24 @@
+graph BFS{
+	0 -- 18[color = red];
+	0 -- 19[color = red];
+	1 -- 3[color = red];
+	1 -- 19[color = red];
+	2 -- 3[color = red];
+	2 -- 4[color = red];
+	4 -- 5[color = red];
+	5 -- 7[color = red];
+	6 -- 7[color = red];
+	6 -- 8[color = red];
+	8 -- 9[color = red];
+	9 -- 11[color = red];
+	10 -- 12[color = red];
+	10 -- 13[color = red];
+	11 -- 12[color = red];
+	13 -- 15[color = red];
+	14 -- 15[color = red];
+	14 -- 16[color = red];
+	16 -- 17[color = red];
+	17 -- 18[color = red];
+	18
+	19
+}
