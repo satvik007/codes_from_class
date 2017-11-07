@@ -11,6 +11,7 @@
 int graph[105][105], n;
 char matrix[105][105];
 int parent[105], dfs_low[105], dfs_num[105], cool, counter, art[105], ans, root, child;
+int bridge[105][105];
 
 int min(int a, int b){
 	return (a <= b ? a : b);
@@ -27,6 +28,7 @@ void dfs(int u){
 				if(u == root) child++;
 				dfs(i);
 				if(dfs_low[i] >= dfs_num[u]) art[u] = 1;
+				if(dfs_low[i] > dfs_num[u]) bridge[u][i] = bridge[i][u] = 1;
 			} 
 			else if(i != parent[u]) dfs_low[u] = min(dfs_low[u], dfs_num[i]); 
 		}
@@ -37,6 +39,7 @@ void call_dfs(){
 	memset(dfs_num, -1, sizeof dfs_num);
 	memset(dfs_low, 0, sizeof dfs_low);
 	memset(art, 0, sizeof art);
+	memset(bridge, 0, sizeof bridge);
 	cool = counter = 0;
 	int i;
 	for(i=0; i<n; i++){
