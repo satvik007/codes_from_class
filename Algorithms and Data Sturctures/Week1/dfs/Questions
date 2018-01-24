@@ -1,0 +1,11 @@
+Q. Implement Depth First Search of directed graphs using adjacency lists. The worst case running time of your algorithm should be linear in |V(G)|+|E(G)|. Your program should also output the dfs exploration start and finish times of each vertex and for the category of each edge (tree edge / backedge /forward edge / cross edge). 
+
+Input file format: 
+
+Line 1 : number of vertices
+
+Line 2 : vertex numbers of neighbours of vertex 1 separated by spaces and ending with a -1.
+
+Line 3: vertex numbers of neighbours of vertex 2 separated by spaces and ending with a -1.   
+
+and so on.

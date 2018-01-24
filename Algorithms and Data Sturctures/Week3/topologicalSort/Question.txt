@@ -1,0 +1,13 @@
+Q3. Topological Sort
+Write a program that takes a directed graph G as input and does the following:
+
+  -> If the graph is a DAG, output a topological ordering of the vertices of G.
+
+  -> If the graph is not a DAG, output a message saying "A directed cycle is detected" and print the vertices of a cycle in the order of a cycle in G. 
+
+  -> Even if there are multiple directed cycles, you need to output only one of them.
+
+Input format:
+
+ Same as Q1 (dfs).
+

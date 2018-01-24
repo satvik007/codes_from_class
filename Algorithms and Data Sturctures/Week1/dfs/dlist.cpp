@@ -1,19 +1,16 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <limits.h>
+#include <bits/stdc++.h>
 #include "dlist.h"
 
-Dlist DlistCreateNew(){
-	Dlist new1 = (Dlist) malloc (sizeof (Dlist));
+Dlist* DlistCreateNew(){
+	Dlist* new1 = (Dlist*) malloc (sizeof (Dlist*));
 	new1->root1 = NULL;
 	new1->root2 = NULL;
 	new1->size = 0;
 	return new1;
 }
 
-void DlistAddAtBack(Dlist current, int val){
-	Node new1 = (Node) malloc (sizeof (Node));
+void DlistAddAtBack(Dlist* current, int val){
+	Node* new1 = (Node*) malloc (sizeof (Node*));
 	new1->data = val;
 	current->size += 1;
 	new1->next = NULL;
@@ -29,8 +26,8 @@ void DlistAddAtBack(Dlist current, int val){
 	}
 }
 
-void DlistAddAtFront(Dlist current, int val){
-	Node new1 = (Node) malloc (sizeof (Node));
+void DlistAddAtFront(Dlist* current, int val){
+	Node* new1 = (Node*) malloc (sizeof (Node*));
 	new1->data = val;
 	new1->prev = NULL;
 	new1->next = NULL;
@@ -46,9 +43,9 @@ void DlistAddAtFront(Dlist current, int val){
 	}
 }
 
-void DlistPrintForward(Dlist current){
+void DlistPrintForward(Dlist* current){
 	if(current == NULL) return;
-	Node temp = current->root1;
+	Node* temp = current->root1;
 	int flag = 1;
 	while(temp != NULL && (temp != current->root1 || flag)){
 		flag = 0;
@@ -58,9 +55,9 @@ void DlistPrintForward(Dlist current){
 	printf("\n");
 }
 
-void DlistPrintReverse(Dlist current){
+void DlistPrintReverse(Dlist* current){
 	if(current == NULL) return;
-	Node temp = current->root2;
+	Node* temp = current->root2;
 	int flag = 1;
 	while(temp != NULL && (temp != current->root2 || flag)){
 		flag = 0;
