@@ -1,0 +1,16 @@
+graph Dijkstra{
+	0;
+	0 -- 1[color = black, label = 30];
+	0 -- 2[color = red, label = 10];
+	1;
+	1 -- 2[color = black, label = 50];
+	1 -- 3[color = red, label = 100];
+	1 -- 4[color = black, label = 40];
+	2;
+	2 -- 4[color = red, label = 10];
+	2 -- 5[color = red, label = 50];
+	3[color = yellow, style = filled];
+	3 -- 5[color = red, label = 60];
+	4;
+	5;
+}
