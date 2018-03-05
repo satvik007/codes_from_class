@@ -177,9 +177,10 @@ void write_output(){
     cout << endl << "The edges of the MST are: \n";
     for(int i=0; i<n; i++){
     	if(i != src){
-    		cout << min(i, parent[i]) << " - " << max(parent[i], i) << " - " << cost[i] << endl;
+    		cout << min(i, parent[i]) << " - " << max(parent[i], i) << "   -    " << cost[i] << endl;
     	}
     }
+    cout << "\nThe output dot file is ready.\n";
 }
 
 void prims_algorithm(){
