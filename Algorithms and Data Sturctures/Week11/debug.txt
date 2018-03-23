@@ -1,0 +1,365 @@
+/home/satvik/CLionProjects/plus/cmake-build-debug/plus
+Enter 1 to insert 1 new key.
+Enter 2 to search a key.
+Enter 3 to insert n random keys.
+Enter 4 to display tree.
+Enter 5 to delete a key.
+Enter 6 to exit.
+Enter 7 to delete all.
+3
+How many to insert: 20
+83
+86
+77
+15
+93
+35
+86
+92
+49
+21
+62
+27
+90
+59
+63
+26
+40
+26
+72
+36
+**************************************************
+|----.
+|    |15
+|    |21
+|    |26
+|    |27
+|35
+|----.
+|    |36
+|    |40
+|    |49
+|    |59
+|62
+|----.
+|    |63
+|    |72
+|    |77
+|83
+|----.
+|    |86
+|    |90
+|    |92
+|    |93
+**************************************************
+Enter 1 to insert 1 new key.
+Enter 2 to search a key.
+Enter 3 to insert n random keys.
+Enter 4 to display tree.
+Enter 5 to delete a key.
+Enter 6 to exit.
+Enter 7 to delete all.
+7
+0 The value is not present.
+1 The value is not present.
+2 The value is not present.
+3 The value is not present.
+4 The value is not present.
+5 The value is not present.
+6 The value is not present.
+7 The value is not present.
+8 The value is not present.
+9 The value is not present.
+10 The value is not present.
+11 The value is not present.
+12 The value is not present.
+13 The value is not present.
+14 The value is not present.
+15 **************************************************
+|----.
+|    |21
+|    |26
+|    |27
+|35
+|----.
+|    |36
+|    |40
+|    |49
+|    |59
+|62
+|----.
+|    |63
+|    |72
+|    |77
+|83
+|----.
+|    |86
+|    |90
+|    |92
+|    |93
+**************************************************
+16 The value is not present.
+17 The value is not present.
+18 The value is not present.
+19 The value is not present.
+20 The value is not present.
+21 **************************************************
+|----.
+|    |26
+|    |27
+|35
+|----.
+|    |36
+|    |40
+|    |49
+|    |59
+|62
+|----.
+|    |63
+|    |72
+|    |77
+|83
+|----.
+|    |86
+|    |90
+|    |92
+|    |93
+**************************************************
+22 The value is not present.
+23 The value is not present.
+24 The value is not present.
+25 The value is not present.
+26 **************************************************
+|----.
+|    |27
+|    |35
+|36
+|----.
+|    |40
+|    |49
+|    |59
+|62
+|----.
+|    |63
+|    |72
+|    |77
+|83
+|----.
+|    |86
+|    |90
+|    |92
+|    |93
+**************************************************
+27 **************************************************
+|----.
+|    |35
+|    |36
+|40
+|----.
+|    |49
+|    |59
+|62
+|----.
+|    |63
+|    |72
+|    |77
+|83
+|----.
+|    |86
+|    |90
+|    |92
+|    |93
+**************************************************
+28 The value is not present.
+29 The value is not present.
+30 The value is not present.
+31 The value is not present.
+32 The value is not present.
+33 The value is not present.
+34 The value is not present.
+35 **************************************************
+|----.
+|    |36
+|    |40
+|    |49
+|    |59
+|62
+|----.
+|    |63
+|    |72
+|    |77
+|83
+|----.
+|    |86
+|    |90
+|    |92
+|    |93
+**************************************************
+36 **************************************************
+|----.
+|    |40
+|    |49
+|    |59
+|62
+|----.
+|    |63
+|    |72
+|    |77
+|83
+|----.
+|    |86
+|    |90
+|    |92
+|    |93
+**************************************************
+37 The value is not present.
+38 The value is not present.
+39 The value is not present.
+40 **************************************************
+|----.
+|    |49
+|    |59
+|62
+|----.
+|    |63
+|    |72
+|    |77
+|83
+|----.
+|    |86
+|    |90
+|    |92
+|    |93
+**************************************************
+41 The value is not present.
+42 The value is not present.
+43 The value is not present.
+44 The value is not present.
+45 The value is not present.
+46 The value is not present.
+47 The value is not present.
+48 The value is not present.
+49 **************************************************
+|----.
+|    |59
+|    |62
+|63
+|----.
+|    |72
+|    |77
+|83
+|----.
+|    |86
+|    |90
+|    |92
+|    |93
+**************************************************
+50 The value is not present.
+51 The value is not present.
+52 The value is not present.
+53 The value is not present.
+54 The value is not present.
+55 The value is not present.
+56 The value is not present.
+57 The value is not present.
+58 The value is not present.
+59 **************************************************
+|----.
+|    |62
+|    |63
+|    |72
+|    |77
+|83
+|----.
+|    |86
+|    |90
+|    |92
+|    |93
+**************************************************
+60 The value is not present.
+61 The value is not present.
+62 **************************************************
+|----.
+|    |63
+|    |72
+|    |77
+|83
+|----.
+|    |86
+|    |90
+|    |92
+|    |93
+**************************************************
+63 **************************************************
+|----.
+|    |72
+|    |77
+|83
+|----.
+|    |86
+|    |90
+|    |92
+|    |93
+**************************************************
+64 The value is not present.
+65 The value is not present.
+66 The value is not present.
+67 The value is not present.
+68 The value is not present.
+69 The value is not present.
+70 The value is not present.
+71 The value is not present.
+72 **************************************************
+|----.
+|    |77
+|    |83
+|86
+|----.
+|    |90
+|    |92
+|    |93
+**************************************************
+73 The value is not present.
+74 The value is not present.
+75 The value is not present.
+76 The value is not present.
+77 **************************************************
+|----.
+|    |83
+|    |86
+|90
+|----.
+|    |92
+|    |93
+**************************************************
+78 The value is not present.
+79 The value is not present.
+80 The value is not present.
+81 The value is not present.
+82 The value is not present.
+83 **************************************************
+|----.
+|    |86
+|    |90
+|    |92
+|    |93
+**************************************************
+84 The value is not present.
+85 The value is not present.
+86 **************************************************
+|----.
+|    |90
+|    |92
+|    |93
+**************************************************
+87 The value is not present.
+88 The value is not present.
+89 The value is not present.
+90 **************************************************
+|----.
+|    |92
+|    |93
+**************************************************
+91 The value is not present.
+   
+Process finished with exit code 134 (interrupted by signal 6: SIGABRT)
