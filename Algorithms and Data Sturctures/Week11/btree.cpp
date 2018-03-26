@@ -287,27 +287,33 @@ int main(){
     //freopen("out.txt", "w", stdout);
 
     Btree current;
+    int n; cin >> n;
+    for(int i=0; i<n; i++){
+        int u; cin >> u;
+        cout << "Current key inserted - " << u << ".\n";
+        current.btreeInsert(u, true);
+    }
     bool flag = true;
     while(flag){
         cout << "Enter 1 to insert 1 new key.\n";
-        cout << "Enter 2 to search a key.\n";
-        cout << "Enter 3 to insert n random keys.\n";
-        cout << "Enter 4 to display tree.\n";
-        cout << "Enter 5 to delete a key.\n";
-        cout << "Enter 6 to exit.\n";
+        cout << "Enter 2 to delete a key.\n";
+        cout << "Enter 3 to search a key.\n";
+        cout << "Enter 4 to exit.\n";
+        cout << "Enter 5 to display tree..\n";
+        cout << "Enter 6 to enter n random keys.\n";
 
         int ord; cin >> ord;
         int u, v;
         switch(ord){
             case 1: cout << "Enter the new key value: ";
                 cin >> u; current.btreeInsert(u, true); break;
-            case 2: cout << "Enter the key value to be searched: ";
-                cin >> u; current.btreeSearchWrapper(u); break;
-            case 3: current.insertNRandom(); break;
-            case 4: current.btreePrintTreeWrapper(); break;
-            case 5: cout << "Enter the key to be deleted: ";
+            case 2: cout << "Enter the key to be deleted: ";
                 cin >> u; current.btreeDeleteWrapper(u, true); break;
-            case 6: flag = false; break;
+            case 3: cout << "Enter the key value to be searched: ";
+                cin >> u; current.btreeSearchWrapper(u); break;
+            case 4: flag = false; break;
+            case 5: current.btreePrintTreeWrapper(); break;
+            case 6: current.insertNRandom(); break;
             default: cout << "Wrong value entered. Don't worry just try again.\n";
         }
     }
